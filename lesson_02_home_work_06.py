@@ -21,5 +21,6 @@ while i < my_dict_len:
     new_item.append(my_dict.get('ед'))
     i += 1
 
-new_dict = {'название': new_name, 'цена': new_price, 'Кол-во': new_quant, 'ед': new_item}
+new_dict = {'название': new_name,'цена': new_price, 'Кол-во': new_quant, 'ед': new_item}
+print(my_list)
 print(new_dict)
